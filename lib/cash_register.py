@@ -5,4 +5,4 @@ class CashRegister:
         self.discount = discount
         self.total = 0
         self.items = []
-
+        self.previous_transactions = []
