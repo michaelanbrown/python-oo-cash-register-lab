@@ -23,3 +23,4 @@ class CashRegister:
             print("There is no discount to apply.")
 
     def void_last_transaction(self):
+        if not self.previous_transactions:
