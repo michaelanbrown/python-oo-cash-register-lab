@@ -3,4 +3,5 @@
 class CashRegister:
     def __init__(self, discount=0):
         self.discount = discount
+        self.total = 0
 
