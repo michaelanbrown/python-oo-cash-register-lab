@@ -14,3 +14,5 @@ class CashRegister:
         self.previous_transactions.append(
             {"item": item, "quantity": quantity, "price": price}
         )
+
+    def apply_discount(self):
