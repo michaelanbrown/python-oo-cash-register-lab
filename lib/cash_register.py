@@ -6,3 +6,6 @@ class CashRegister:
         self.total = 0
         self.items = []
         self.previous_transactions = []
+
+    def add_item(self, item, price, quantity=1):
+  
