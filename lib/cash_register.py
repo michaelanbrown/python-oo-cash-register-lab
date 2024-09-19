@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
 
 class CashRegister:
-  pass
+    def __init__(self, discount=0):
+
