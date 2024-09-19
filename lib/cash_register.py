@@ -31,3 +31,4 @@ class CashRegister:
         )
         for _ in range(self.previous_transactions[-1]["quantity"]):
             self.items.pop()
+        self.previous_transactions.pop()
