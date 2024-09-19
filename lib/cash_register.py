@@ -16,3 +16,4 @@ class CashRegister:
         )
 
     def apply_discount(self):
+        if self.discount:
