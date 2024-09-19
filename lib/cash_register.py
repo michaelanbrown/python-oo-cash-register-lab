@@ -21,3 +21,5 @@ class CashRegister:
             print(f"After the discount, the total comes to ${self.total}.")
         else:
             print("There is no discount to apply.")
+
+    def void_last_transaction(self):
