@@ -9,3 +9,4 @@ class CashRegister:
 
     def add_item(self, item, price, quantity=1):
         self.total += price * quantity
+        for _ in range(quantity):
